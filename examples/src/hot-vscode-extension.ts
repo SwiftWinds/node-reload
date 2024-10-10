@@ -14,7 +14,7 @@ export class Extension extends DisposableComponent {
 		super();
 		// Disposables are disposed automatically on reload.
 		const item = this.trackDisposable(vscode.window.createStatusBarItem());
-		item.text = "hello world";
+		item.text = "hello friends :)";
 		item.show();
 	}
 }
